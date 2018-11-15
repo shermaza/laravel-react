@@ -65,7 +65,7 @@
         </style>
     </head>
     <body>
-        <div id="example"></div>
-        <script src="/js/app.js"></script>
+        <div id="root"></div>
+        <script src="/js/app.js?query={{\Carbon\Carbon::now()->toDateTimeString()}}"></script>
     </body>
 </html>
